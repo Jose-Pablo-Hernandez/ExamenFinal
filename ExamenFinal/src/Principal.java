@@ -101,7 +101,6 @@ public void Panel(){
         MAulas = new javax.swing.JMenuItem();
         MJornadas = new javax.swing.JMenuItem();
         jMenu5 = new javax.swing.JMenu();
-        jMenuConsulta = new javax.swing.JMenuItem();
         jMenu4 = new javax.swing.JMenu();
         jMenuItem13 = new javax.swing.JMenuItem();
         jMenuItem1 = new javax.swing.JMenuItem();
@@ -116,7 +115,6 @@ public void Panel(){
         jMenuItem7.setText("jMenuItem7");
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setTitle("GRUPO 3 - SIU");
         addWindowStateListener(new java.awt.event.WindowStateListener() {
             public void windowStateChanged(java.awt.event.WindowEvent evt) {
                 formWindowStateChanged(evt);
@@ -130,11 +128,11 @@ public void Panel(){
         ventanaP.setLayout(ventanaPLayout);
         ventanaPLayout.setHorizontalGroup(
             ventanaPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 1221, Short.MAX_VALUE)
+            .addGap(0, 992, Short.MAX_VALUE)
         );
         ventanaPLayout.setVerticalGroup(
             ventanaPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 728, Short.MAX_VALUE)
+            .addGap(0, 461, Short.MAX_VALUE)
         );
 
         jMenu6.setText("Catalogos");
@@ -214,10 +212,6 @@ public void Panel(){
         jMenuBar1.add(jMenu6);
 
         jMenu5.setText("Informes");
-
-        jMenuConsulta.setText("CONSULTA USUARIOS REGISTRADOS");
-        jMenu5.add(jMenuConsulta);
-
         jMenuBar1.add(jMenu5);
 
         jMenu4.setText("Procesos");
@@ -432,7 +426,6 @@ public void Panel(){
     private javax.swing.JMenu jMenu6;
     private javax.swing.JMenu jMenu7;
     private javax.swing.JMenuBar jMenuBar1;
-    private javax.swing.JMenuItem jMenuConsulta;
     private javax.swing.JMenuItem jMenuItem1;
     private javax.swing.JMenuItem jMenuItem13;
     private javax.swing.JMenuItem jMenuItem3;
